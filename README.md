@@ -274,3 +274,6 @@ Based on an extract from https://github.com/chriskempson/base16/blob/main/stylin
   * vim_tomorrow-night-eighties.yaml
   * vim_tomorrow-night.yaml
   * vim_tomorrow.yaml
+
+For each scheme, generate a preview.
+For example using https://github.com/clach04/base16-rainbow-generator
