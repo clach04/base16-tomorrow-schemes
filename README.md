@@ -241,3 +241,11 @@ Based on an extract from https://github.com/chriskempson/base16/blob/main/stylin
 - **base0E** - Keywords, Storage, Selector, Markup Italic, Diff Changed
 - **base0F** - Deprecated, Opening/Closing Embedded Language Tags, e.g. `<?php ?>`
 
+### Base16 Color Schemes
+
+  * tomorrow-night.yaml
+  * tomorrow.yaml
+  * tomorrow_20120906.yaml
+  * vim_tomorrow-night-eighties.yaml
+  * vim_tomorrow-night.yaml
+  * vim_tomorrow.yaml
