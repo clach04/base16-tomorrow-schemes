@@ -47,6 +47,8 @@ https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Palet
 
 AKA Tomorrow Day
 
+![Tomorrow](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Palette.png)
+
 https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Palette.png
 
   * `#ffffff` Background
@@ -63,6 +65,8 @@ https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Palet
   * `#9c71b7` Purple
 
 #### Tomorrow Night
+
+![Tomorrow Night](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Palette.png)
 
 https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night-Palette.png
 
@@ -81,6 +85,8 @@ https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night
 
 #### Tomorrow Night Blue
 
+![Tomorrow Night Blue](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Blue-Palette.png)
+
 https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night-Blue-Palette.png
 
   * `#003264` Background
@@ -98,6 +104,8 @@ https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night
 
 #### Tomorrow Night Bright
 
+![Tomorrow Night Bright](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Bright-Palette.png)
+
 https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night-Bright-Palette.png
 
   * `#000000` Background
@@ -114,6 +122,8 @@ https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night
   * `#cfabdf` Purple
 
 #### Tomorrow Night Eighties
+
+![Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Eighties-Palette.png)
 
 https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night-Eighties-Palette.png
 
