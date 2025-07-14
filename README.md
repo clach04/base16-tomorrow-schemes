@@ -149,6 +149,9 @@ https://github.com/alexmirrington/base16-spectrum-generator/
 
 #### Tomorrow
 
+
+![alexmirrington Tomorrow Bright/Bold](https://github.com/alexmirrington/base16-spectrum-generator/blob/master/png/tomorrow.png)
+
 https://github.com/alexmirrington/base16-spectrum-generator/blob/master/png/tomorrow.png
 
 Note this is much brighter than Chris Kempson Tomorrow Day, it makes original look like Eighties / Pastel.
