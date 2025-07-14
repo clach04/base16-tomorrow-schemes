@@ -22,7 +22,6 @@ Also mapping Tomorrow to Base16 (or Base24) is going to vary as Tomorrow only de
 
 TODO:
 
-  * include/generate https://github.com/jamescherti/vim-tomorrow-night-deepblue
   * base24 versions, for decent terminal support (rather than the effectively 8-color support base16 provides to terminals)
 
 ## Image Extracts
@@ -140,7 +139,7 @@ https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night
   * `#78aad6` Blue
   * `#d6acd6` Purple
 
-### alexmirrington/base16-spectrum-generator
+### Alex Mirrington Images
 
 Has a tool to generate bar images (similar to https://github.com/clach04/base16-rainbow-generator)
 and has a Tomorrow (Day) image.
@@ -148,7 +147,6 @@ and has a Tomorrow (Day) image.
 https://github.com/alexmirrington/base16-spectrum-generator/
 
 #### Tomorrow
-
 
 ![alexmirrington Tomorrow Bright/Bold](https://github.com/alexmirrington/base16-spectrum-generator/blob/master/png/tomorrow.png)
 
@@ -178,7 +176,6 @@ Base16
 
 Tomorrow:
 
-
   * `#ffffff` Background
   * `#e0e0e0` Current Line - TODO review
   * `#d6d6d6` Selection - TODO review
@@ -192,6 +189,33 @@ Tomorrow:
   * `#4271ae` Blue
   * `#8959a8` Purple
 
+### James Cherti vim scheme
+
+From https://github.com/jamescherti/vim-tomorrow-night-deepblue
+
+#### Tomorrow Night Deepblue
+
+Extracted from vim color scheme
+https://github.com/jamescherti/vim-tomorrow-night-deepblue/blob/master/colors/tomorrow-night-deepblue.vim
+
+  * `#00006f` Background
+  * `#00008a` Current Line
+  * `#003f8e` Selection
+  * `#ffffff` Foreground
+  * `#7285b7` Comment
+  * `#ff9da4` Red
+  * `#ffc58f` Orange
+  * `#ffeead` Yellow
+  * `#d1f1a9` Green
+  * `#99ffff` Aqua
+  * `#bbdaff` Blue
+  * `#ebbbff` Purple
+
+Potentiall useful (for Base16):
+
+    let s:window = '4d5057'
+    let s:darker_background = '00005f'
+    let s:cursorline = '082572'
 
 ## Template
 
