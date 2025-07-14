@@ -174,7 +174,7 @@ Base16
     base0c: "3e999f" # Aqua
     base0d: "4271ae" # Blue
     base0e: "8959a8" # Purple
-    base0f: "a3685a" # Foreground - potentially
+    base0f: "a3685a" # IndianRed - Some sort of brown?
 
 Tomorrow:
 
