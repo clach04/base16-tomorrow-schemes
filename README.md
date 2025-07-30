@@ -16,7 +16,7 @@ Tomorrow-Night-Eighties-Palette.png
 Tomorrow-Night-Palette.png
 Tomorrow-Palette.png
 
-Differ to various theme files.
+Differ to various theme files. Also see https://github.com/stonebuddha/base16-chinoiserie-scheme
 
 Also mapping Tomorrow to Base16 (or Base24) is going to vary as Tomorrow only defines 12 colors, not the 16 that Base16 does.
 
