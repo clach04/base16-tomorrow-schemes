@@ -3,6 +3,9 @@
 Base16 implementation of Chris Kempson's Tomorrow Themes
 https://github.com/clach04/tomorrow-theme/
 
+NOTE yaml files in this repo are based on schema version 0.2 spec in https://github.com/chriskempson/base16/blob/main/styling.md
+i.e. same as legacy described in https://github.com/tinted-theming/home/blob/main/styling.md
+
 Difficult to find a concrete reference copy of the Tomorrow colors,
 themes seem to have slightly different values :-(
 Including images versus theme values.
@@ -139,6 +142,26 @@ https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night
   * `#78aad6` Blue
   * `#d6acd6` Purple
 
+### Chris Kempson vim Themes
+
+There are three sets to refer to:
+
+  * https://github.com/chriskempson/base16-vim/ - uses baseXX names. Includes; tomorrow, tomorrow-night, and tomorrow-night-eighties + many other base16 schemes
+      * derived yaml files in this repo
+  * https://github.com/chriskempson/vim-tomorrow-theme - sets color names, no references or usage of baseXX names. Includes; tomorrow, tomorrow-night, tomorrow-night-eighties, tomorrow-night-bright, tomorrow-night-blue
+      * **TODO** derived yaml files **MISSING from** this repo
+      * more themes than https://github.com/chriskempson/base16-vim/
+      * treats GUI and terminal differently, i.e. `line` and `selection` get different values in GUI versus terminal
+  * https://github.com/clach04/tomorrow-theme/tree/readme_color_docs/vim/colors -- fork/mirror of https://github.com/chriskempson/tomorrow-theme
+      * **TODO** derived yaml files **MISSING from** this repo
+      * Similar to https://github.com/chriskempson/vim-tomorrow-theme uses and sets color names, no references or usage of baseXX names.
+      * more themes than https://github.com/chriskempson/base16-vim/
+      * treats GUI and terminal differently, i.e. `line` and `selection` get different values in GUI versus terminal
+
+TODO compare vim colors in:
+  * https://github.com/chriskempson/vim-tomorrow-theme/tree/master/colors
+  * https://github.com/chriskempson/tomorrow-theme/tree/master/vim/colors
+
 ### Alex Mirrington Images
 
 Has a tool to generate bar images (similar to https://github.com/clach04/base16-rainbow-generator)
@@ -189,7 +212,7 @@ Tomorrow:
   * `#4271ae` Blue
   * `#8959a8` Purple
 
-### James Cherti vim scheme
+### James Cherti vim Scheme
 
 From https://github.com/jamescherti/vim-tomorrow-night-deepblue
 
@@ -211,7 +234,7 @@ https://github.com/jamescherti/vim-tomorrow-night-deepblue/blob/master/colors/to
   * `#bbdaff` Blue
   * `#ebbbff` Purple
 
-Potentiall useful (for Base16):
+Potentially useful (for Base16):
 
     let s:window = '4d5057'
     let s:darker_background = '00005f'
@@ -254,6 +277,24 @@ Based on an extract from https://github.com/chriskempson/base16/blob/main/stylin
 - **base06** - Light Foreground (Not often used)
 - **base07** - Light Background (Not often used)
 
+NOTE discrepancy between spec recommendations above and Chris Kempson's Tomorrow themes,
+specifically https://github.com/chriskempson/base16/blob/main/styling.md
+
+States:
+
+> base03 - Comments, Invisibles, Line Highlighting
+
+The Tomorrow colors (and vim themes https://github.com/chriskempson/vim-tomorrow-theme) treat "Comment" and "Current Line" separately and differently.
+Base16 spec appears to combine them into base03,
+I suspect they should be base03 and base01 respectively - this is how it is currently handled in base16-scintillua see
+https://github.com/tinted-theming/base16-scintillua/blob/f6782b771328645acc078172a3abcb30db78f9f4/templates/base16.mustache#L405
+
+Facts:
+  * https://github.com/chriskempson/base16-vim/blob/master/templates/default.mustache
+      * Sets CursorLine   to bg:gui01 == base01 - same as base16-scintillua (TODO review upstream spec, open issue for discussion?)
+      * Sets CursorLineNr to bg:gui01 + fg:gui04 (base01 + base04) - different to base16-scintillua (TODO review base16-scintillua)
+      * Sets Comment      to fg:gui03 (base03) - matches Base16 spec (and base16-scintillua)
+
 ### Base16 Colors
 
 - **base08** - Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
@@ -274,6 +315,7 @@ Based on an extract from https://github.com/chriskempson/base16/blob/main/stylin
   * vim_tomorrow-night-eighties.yaml
   * vim_tomorrow-night.yaml
   * vim_tomorrow.yaml
+  * TODO review https://github.com/clach04/scite_theme/blob/main/scite_themes/schemes/base16/tomorrow.yaml contents
 
 For each scheme, generate a preview.
 For example using https://github.com/clach04/base16-rainbow-generator
