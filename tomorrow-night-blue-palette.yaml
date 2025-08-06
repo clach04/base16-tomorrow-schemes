@@ -1,0 +1,31 @@
+name: Tomorrow Night Blue Palette
+slug: tomorrow-night-blue-palette
+author: Probably Chris Kempson (http://chriskempson.com)
+# Variant: dark - Light theme, 01-07 is light to dark
+# comments
+
+base00: "FIXME_" # Default Background
+base01: "FIXME_" # Darker Background (Used for status bars, line number and folding marks)
+base02: "FIXME_" # Selection Background
+base03: "FIXME_" # Comments, Invisibles, Line Highlighting
+base04: "FIXME_" # Dark/Light Foreground (Used for status bars)
+base05: "FIXME_" # Default Foreground, Caret, Delimiters, Operators
+base06: "FIXME_" # Dark Foreground (Not often used)
+base07: "FIXME_" # Dark Background (Not often used)
+
+base08: "ffafb3" # Red
+base09: "ffcfa0" # Orange
+base0A: "fff0bb" # Yellow
+base0B: "d9f2b7" # Green
+base0C: "a6feff" # Aqua
+base0D: "c6e2ff" # Blue
+base0E: "f0caff" # Purple
+base0F: "FIXME_" # - Unclear, IndianRed - Some sort of brown?
+# Also known as: Tomorrow Night Blue
+# from https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night-Blue-Palette.png
+
+#  * `#003264` Background
+#  * `#00549f` Selection
+#  * `#004681` Current Line
+#  * `#ffffff` Foreground
+#  * `#8598c4` Comment

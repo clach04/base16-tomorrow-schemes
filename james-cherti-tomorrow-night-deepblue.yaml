@@ -1,0 +1,35 @@
+name: James Cherti Tomorrow Night Deepblue
+slug: james-cherti-tomorrow-night-deepblue
+author: James Cherti (https://github.com/jamescherti/)
+# Variant: dark - Light theme, 01-07 is light to dark
+# comments
+
+base00: "FIXME_" # Default Background
+base01: "FIXME_" # Darker Background (Used for status bars, line number and folding marks)
+base02: "FIXME_" # Selection Background
+base03: "FIXME_" # Comments, Invisibles, Line Highlighting
+base04: "FIXME_" # Dark/Light Foreground (Used for status bars)
+base05: "FIXME_" # Default Foreground, Caret, Delimiters, Operators
+base06: "FIXME_" # Dark Foreground (Not often used)
+base07: "FIXME_" # Dark Background (Not often used)
+
+base08: "ff9da4" # Red
+base09: "ffc58f" # Orange
+base0A: "ffeead" # Yellow
+base0B: "d1f1a9" # Green
+base0C: "99ffff" # Aqua
+base0D: "bbdaff" # Blue
+base0E: "ebbbff" # Purple
+base0F: "FIXME_" # - Unclear, IndianRed - Some sort of brown?
+# Also known as: Tomorrow Night Deepblue
+# from https://github.com/jamescherti/vim-tomorrow-night-deepblue
+
+#  * `#00006f` Background
+#  * `#00008a` Current Line
+#  * `#003f8e` Selection
+#  * `#ffffff` Foreground
+#  * `#7285b7` Comment
+#
+#  * window = '4d5057'
+#  * darker_background = '00005f'
+#  * cursorline = '082572'

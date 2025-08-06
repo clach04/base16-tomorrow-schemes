@@ -1,0 +1,31 @@
+name: Tomorrow Night Eighties Palette
+slug: tomorrow-night-eighties-palette
+author: Probably Chris Kempson (http://chriskempson.com)
+# Variant: dark - Light theme, 01-07 is light to dark
+# comments
+
+base00: "FIXME_" # Default Background
+base01: "FIXME_" # Darker Background (Used for status bars, line number and folding marks)
+base02: "FIXME_" # Selection Background
+base03: "FIXME_" # Comments, Invisibles, Line Highlighting
+base04: "FIXME_" # Dark/Light Foreground (Used for status bars)
+base05: "FIXME_" # Default Foreground, Caret, Delimiters, Operators
+base06: "FIXME_" # Dark Foreground (Not often used)
+base07: "FIXME_" # Dark Background (Not often used)
+
+base08: "f78d8c" # Red
+base09: "fca369" # Orange
+base0A: "ffd479" # Yellow
+base0B: "a8d3a9" # Green
+base0C: "76d4d6" # Aqua
+base0D: "78aad6" # Blue
+base0E: "d6acd6" # Purple
+base0F: "FIXME_" # - Unclear, IndianRed - Some sort of brown?
+# Also known as: Tomorrow Night Eighties
+# from https://github.com/chriskempson/tomorrow-theme/blob/master/Images/Tomorrow-Night-Eighties-Palette.png
+
+#  * `#3b3b3b` Background
+#  * `#494949` Current Line
+#  * `#646464` Selection
+#  * `#d5d5d5` Foreground
+#  * `#a9a9a9` Comment
