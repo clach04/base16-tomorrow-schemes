@@ -1,0 +1,28 @@
+name: TomorrowSOMETHING
+slug: tomorrow_something
+author: Probably Chris Kempson (http://chriskempson.com)
+# Variant: dark/light - Light theme, 01-07 is light to dark
+# comments
+
+base00: "FIXME_" # Default Background
+base01: "FIXME_" # Darker Background (Used for status bars, line number and folding marks)
+base02: "FIXME_" # Selection Background
+base03: "FIXME_" # Comments, Invisibles, Line Highlighting
+base04: "FIXME_" # Dark/Light Foreground (Used for status bars)
+base05: "FIXME_" # Default Foreground, Caret, Delimiters, Operators
+base06: "FIXME_" # Dark Foreground (Not often used)
+base07: "FIXME_" # Dark Background (Not often used)
+
+base08: "FIXME_" # Red
+base09: "FIXME_" # Orange
+base0A: "FIXME_" # Yellow
+base0B: "FIXME_" # Green
+base0C: "FIXME_" # Aqua
+base0D: "FIXME_" # Blue
+base0E: "FIXME_" # Purple
+base0F: "FIXME_" # - Unclear, IndianRed - Some sort of brown?
+# Also known as: TomorrowSOMETHING
+# from 
+
+# NOTE schema based on version 0.2 spec in https://github.com/chriskempson/base16/blob/main/styling.md
+# i.e. same as legacy described in https://github.com/tinted-theming/home/blob/main/styling.md
