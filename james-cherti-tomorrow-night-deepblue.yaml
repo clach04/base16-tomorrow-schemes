@@ -4,12 +4,12 @@ author: James Cherti (https://github.com/jamescherti/)
 # Variant: dark - Light theme, 01-07 is light to dark
 # comments
 
-base00: "FIXME_" # Default Background
-base01: "FIXME_" # Darker Background (Used for status bars, line number and folding marks)
-base02: "FIXME_" # Selection Background
+base00: "00006f" # Default Background
+base01: "00008a" # Darker Background (Used for status bars, line number and folding marks) - and typically Current Line
+base02: "003f8e" # Selection Background
 base03: "FIXME_" # Comments, Invisibles, Line Highlighting
 base04: "FIXME_" # Dark/Light Foreground (Used for status bars)
-base05: "FIXME_" # Default Foreground, Caret, Delimiters, Operators
+base05: "ffffff" # Default Foreground, Caret, Delimiters, Operators
 base06: "FIXME_" # Dark Foreground (Not often used)
 base07: "FIXME_" # Dark Background (Not often used)
 
@@ -21,7 +21,7 @@ base0C: "99ffff" # Aqua
 base0D: "bbdaff" # Blue
 base0E: "ebbbff" # Purple
 base0F: "FIXME_" # - Unclear, IndianRed - Some sort of brown?
-# Also known as: Tomorrow Night Deepblue
+# Also known as: Tomorrow Night Deepblue - previously called tomorrow-night-seablue
 # from https://github.com/jamescherti/vim-tomorrow-night-deepblue
 
 #  * `#00006f` Background
@@ -29,7 +29,7 @@ base0F: "FIXME_" # - Unclear, IndianRed - Some sort of brown?
 #  * `#003f8e` Selection
 #  * `#ffffff` Foreground
 #  * `#7285b7` Comment
-#
+# TODO map below
 #  * window = '4d5057'
 #  * darker_background = '00005f'
 #  * cursorline = '082572'
