@@ -269,7 +269,7 @@ Based on an extract from https://github.com/chriskempson/base16/blob/main/stylin
 ### Base16 Shades
 
 - **base00** - Default Background
-- **base01** - Lighter Background (Used for status bars, line number and folding marks)
+- **base01** - Lighter Background (Used for status bars, line number and folding marks) - NOTE most themes (e.g. vim) use this for CurrentLine
 - **base02** - Selection Background
 - **base03** - Comments, Invisibles, Line Highlighting
 - **base04** - Dark Foreground (Used for status bars)
